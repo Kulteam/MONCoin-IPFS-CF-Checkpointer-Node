@@ -11,8 +11,8 @@ This project is designed to update blockchain checkpoints, PIN the resulting fil
 ## Install
 
 ```sh
-git clone https://github.com/turtlecoin/ipfs-cf-checkpointer-node
-cd ipfs-cf-checkpointer-node
+git clone https://github.com/Kulteam/MONCoin-IPFS-CF-Checkpointer-Node.git
+cd MONCoin-IPFS-CF-Checkpointer-Node
 npm install -g yarn
 yarn install
 ```
@@ -23,11 +23,11 @@ yarn install
 
 ```bash
 export CHECKPOINT_FILE=checkpoints.csv
-export PINATA_API_KEY=yourpinatakey
-export PINATA_SECRET_API_KEY=yourpinatasecretkey
-export CLOUDFLARE_TOKEN=yourcloudflaretoken
-export CLOUDFLARE_ZONE_ID=yourcloudflarezoneid
-export CLOUDFLARE_SUBDOMAIN=yourcloudflaresubdomain
+export PINATA_API_KEY=Your_Pinata_Key
+export PINATA_SECRET_API_KEY=Your_Pinata_Secret_Key
+export CLOUDFLARE_TOKEN=Your_Cloudflare_Token
+export CLOUDFLARE_ZONE_ID=Your_Cloudflare_ZoneID
+export CLOUDFLARE_SUBDOMAIN=Your_Cloudflare_Subdomain
 yarn start
 ```
 
@@ -39,14 +39,10 @@ yarn test
 
 ## Author
 
-👤 **The TurtleCoin Developers**
+👤 **Special Thanks to TurtleCoin Developers**
 
 * Twitter: [@_turtlecoin](https://twitter.com/_turtlecoin)
-* Github: [@turtlecoin](https://github.com/turtlecoin)
-
 
 ## 📝 License
 
-Copyright © 2019 [The TurtleCoin Developers](https://github.com/turtlecoin).
-
-This project is [GPL-3.0](https://github.com/turtlecoin/ipfs-cf-checkpointer-node/blob/master/LICENSE) licensed.
+This project is [GPL-3.0](https://github.com/Kulteam/MONCoin-IPFS-CF-Checkpointer-Node/blob/master/LICENSE) licensed.
