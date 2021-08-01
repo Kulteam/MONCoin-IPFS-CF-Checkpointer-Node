@@ -1,4 +1,4 @@
-# TurtleCoin®: Checkpoints Updater
+# MONCoin®: Checkpoints Updater
 
 This project is designed to update blockchain checkpoints, PIN the resulting file hash in [IPFS](https://ipfs.io/) via [Pinata.cloud](https://pinata.cloud/), update a [DNSLink](https://docs.ipfs.io/guides/concepts/dnslink/) via [CloudFlare](https://www.cloudflare.com/) DNS, and leverage the [CloudFlare IPFS Gateway](https://cloudflare-ipfs.com) to serve the data.
 
