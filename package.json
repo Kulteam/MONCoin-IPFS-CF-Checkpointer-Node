@@ -1,14 +1,14 @@
 {
-  "name": "checkpoint-service",
+  "name": "MONCoin-IPFS-CF-Checkpointer-Node",
   "version": "0.0.1",
-  "description": "TurtleCoin Checkpoint Generation Helper",
+  "description": "MONCoin Checkpoint Generation Helper",
   "main": "index.js",
   "scripts": {
     "test": "standard",
     "start": "node index.js"
   },
   "keywords": [
-    "TurtleCoin",
+    "MONCoin",
     "Checkpoint",
     "Service"
   ],
